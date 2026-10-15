@@ -1,0 +1,22 @@
+{
+  "free_coding_apis": [
+    {
+      "provider": "Groq",
+      "model": "llama-3.3-70b-versatile",
+      "endpoint": "https://api.groq.com/openai/v1",
+      "description": "Сверхбыстрая инференция на LPU, щедрый бесплатный тариф (Free Tier) для открытых моделей."
+    },
+    {
+      "provider": "OpenRouter",
+      "model": "deepseek/deepseek-chat:free (или аналогичные :free)",
+      "endpoint": "https://openrouter.ai/api/v1",
+      "description": "Агрегатор с выделенным пулом бесплатных моделей для тестирования и кодинга."
+    },
+    {
+      "provider": "DeepSeek",
+      "model": "deepseek-coder",
+      "endpoint": "https://api.deepseek.com/v1",
+      "description": "Одна из лучших специализированных моделей для написания кода с минимальной стоимостью."
+    }
+  ]
+}
