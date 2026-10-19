@@ -1,8 +1,8 @@
 $scriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
 Set-Location $scriptDir
 
-$activeSmart = "auto/chat"
-$activeLight = "gemini/gemini-3-flash-preview"
+$activeSmart = "agy/gemini-3.8-flash-high"
+$activeLight = "gemini/gemini-3.1-flash-lite"
 $activeUrl = "http://127.0.0.1:9099"
 
 if (Test-Path "$scriptDir\active_pool.json") {

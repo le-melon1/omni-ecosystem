@@ -2,8 +2,8 @@
 DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cd "$DIR"
 
-ACTIVE_SMART="auto/chat"
-ACTIVE_LIGHT="gemini/gemini-3-flash-preview"
+ACTIVE_SMART="agy/gemini-3.8-flash-high"
+ACTIVE_LIGHT="gemini/gemini-3.1-flash-lite"
 ACTIVE_URL="http://127.0.0.1:9099"
 
 # Подтягиваем актуальную модель из active_pool.json если файл обновлялся

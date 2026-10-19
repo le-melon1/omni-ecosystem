@@ -3,8 +3,8 @@ setlocal enabledelayedexpansion
 cd /d "%~dp0"
 chcp 65001 >nul
 
-set "ACTIVE_SMART=auto/chat"
-set "ACTIVE_LIGHT=gemini/gemini-3-flash-preview"
+set "ACTIVE_SMART=agy/gemini-3.8-flash-high"
+set "ACTIVE_LIGHT=gemini/gemini-3.1-flash-lite"
 set "ACTIVE_URL=http://127.0.0.1:9099"
 
 if exist "%~dp0active_pool.json" (

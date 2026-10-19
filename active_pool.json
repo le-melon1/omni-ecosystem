@@ -1,6 +1,6 @@
 {
-  "smart_model": "auto/chat",
-  "light_model": "gemini/gemini-3-flash-preview",
+  "smart_model": "agy/gemini-3.8-flash-high",
+  "light_model": "gemini/gemini-3.1-flash-lite",
   "smart_pool": [
     "gc/grok-4.7-xhigh",
     "gemini/gemini-3-flash-preview",
@@ -117,6 +117,6 @@
   ],
   "proxy_port": 9099,
   "proxy_url": "http://127.0.0.1:9099",
-  "updated_at": "2026-10-16 01:04:18",
+  "updated_at": "2026-10-19 12:15:51",
   "note": "Вы можете изменить smart_model или light_model прямо в этом файле — прокси применит изменения на лету!"
 }
